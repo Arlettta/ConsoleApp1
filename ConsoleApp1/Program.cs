@@ -24,7 +24,7 @@ namespace ConsoleApp1
 
                 }
 
-                Console.WriteLine("Hello my dear, " + name + "!");
+                Console.WriteLine($"Hello my dear, { name} ");
                 Console.WriteLine("Where are you from, " + name + "?");
                 string place = Console.ReadLine();
                 if (string.IsNullOrWhiteSpace(place))
